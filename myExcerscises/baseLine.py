@@ -37,5 +37,5 @@ f.write("User\tProcesID\tParrentID\tStartTime\tCommand\n")
 for item in fileArr:
     line = str(item[0]) + "\t" + str(item[1]) + "\t" + str(item[2]) + "\t" + str(item[3]) + "\t" + str(item[4]) + "\n"
     f.write(line)
-
+    print line[:-1]
 f.close()
