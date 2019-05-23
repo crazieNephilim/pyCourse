@@ -1,5 +1,6 @@
 from collections import Counter
 import operator
+
 myDic = {}
 myDic = Counter(['apple','red','apple','red','red','pear'])
 print myDic
